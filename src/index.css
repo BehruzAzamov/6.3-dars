@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: rgb(131, 58, 180);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+  font-family: sans-serif;
+}
+
+button {
+  border: 0;
+  font-family: sans-serif;
+  background-color: black;
+  color: #fff;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 0;
+}
+
+li {
+  background: #fff;
+  list-style-type: none;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  width: 250px;
+  margin-left: 610px;
+}
+
+input:focus {
+  width: 100px;
+}
